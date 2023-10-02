@@ -31,9 +31,7 @@ public class Semana07 {
                 informe = true;
             }
         } while(numero != 0);
-        if (suma>0){
-            System.out.println("La suma de los numero ingresados que están dentro del intervalo es "+suma);
-        }
+        System.out.println("La suma de los numero ingresados que están dentro del intervalo es "+suma);
         if (count > 0){
             System.out.println("La cantidad de numeros ingresados que están fuera del intevalo es "+count);
         }
